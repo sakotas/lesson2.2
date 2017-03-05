@@ -14,6 +14,7 @@
 		5DB0F85B1E6C469E0076B1B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DB0F85A1E6C469E0076B1B1 /* Assets.xcassets */; };
 		5DB0F85E1E6C469E0076B1B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DB0F85C1E6C469E0076B1B1 /* LaunchScreen.storyboard */; };
 		5DB0F8671E6C4C9A0076B1B1 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DB0F8661E6C4C9A0076B1B1 /* TableViewController.m */; };
+		5DB0F86B1E6C59170076B1B1 /* detailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DB0F86A1E6C59170076B1B1 /* detailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		5DB0F85F1E6C469E0076B1B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5DB0F8651E6C4C9A0076B1B1 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
 		5DB0F8661E6C4C9A0076B1B1 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		5DB0F8691E6C59170076B1B1 /* detailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = detailViewController.h; sourceTree = "<group>"; };
+		5DB0F86A1E6C59170076B1B1 /* detailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = detailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +91,8 @@
 			children = (
 				5DB0F8651E6C4C9A0076B1B1 /* TableViewController.h */,
 				5DB0F8661E6C4C9A0076B1B1 /* TableViewController.m */,
+				5DB0F8691E6C59170076B1B1 /* detailViewController.h */,
+				5DB0F86A1E6C59170076B1B1 /* detailViewController.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -166,6 +171,7 @@
 				5DB0F8561E6C469E0076B1B1 /* ViewController.m in Sources */,
 				5DB0F8531E6C469E0076B1B1 /* AppDelegate.m in Sources */,
 				5DB0F8501E6C469E0076B1B1 /* main.m in Sources */,
+				5DB0F86B1E6C59170076B1B1 /* detailViewController.m in Sources */,
 				5DB0F8671E6C4C9A0076B1B1 /* TableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
