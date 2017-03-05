@@ -13,6 +13,7 @@
 		5DB0F8591E6C469E0076B1B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DB0F8571E6C469E0076B1B1 /* Main.storyboard */; };
 		5DB0F85B1E6C469E0076B1B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DB0F85A1E6C469E0076B1B1 /* Assets.xcassets */; };
 		5DB0F85E1E6C469E0076B1B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DB0F85C1E6C469E0076B1B1 /* LaunchScreen.storyboard */; };
+		5DB0F8671E6C4C9A0076B1B1 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DB0F8661E6C4C9A0076B1B1 /* TableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		5DB0F85A1E6C469E0076B1B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5DB0F85D1E6C469E0076B1B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5DB0F85F1E6C469E0076B1B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DB0F8651E6C4C9A0076B1B1 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		5DB0F8661E6C4C9A0076B1B1 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 		5DB0F84D1E6C469E0076B1B1 /* Lesson2.2 */ = {
 			isa = PBXGroup;
 			children = (
+				5DB0F8681E6C4CA80076B1B1 /* Controllers */,
 				5DB0F8511E6C469E0076B1B1 /* AppDelegate.h */,
 				5DB0F8521E6C469E0076B1B1 /* AppDelegate.m */,
 				5DB0F8541E6C469E0076B1B1 /* ViewController.h */,
@@ -77,6 +81,15 @@
 				5DB0F84F1E6C469E0076B1B1 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5DB0F8681E6C4CA80076B1B1 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5DB0F8651E6C4C9A0076B1B1 /* TableViewController.h */,
+				5DB0F8661E6C4C9A0076B1B1 /* TableViewController.m */,
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -153,6 +166,7 @@
 				5DB0F8561E6C469E0076B1B1 /* ViewController.m in Sources */,
 				5DB0F8531E6C469E0076B1B1 /* AppDelegate.m in Sources */,
 				5DB0F8501E6C469E0076B1B1 /* main.m in Sources */,
+				5DB0F8671E6C4C9A0076B1B1 /* TableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
